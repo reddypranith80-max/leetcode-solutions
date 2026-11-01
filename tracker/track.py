@@ -230,7 +230,8 @@ def write_readme(state, problems):
         ps = [p for p in core if p["topic"] == topic]
         d = sum(1 for p in ps if str(p["num"]) in solved)
         folder = ps[0]["folder"]
-        rows.append(f"| [{topic}]({folder}/) | {bar(d, len(ps))} | {d} / {len(ps)} |")
+        name = f"[{topic}]({folder}/)" if (ROOT / folder).is_dir() else topic
+        rows.append(f"| {name} | {bar(d, len(ps))} | {d} / {len(ps)} |")
 
     recent = sorted(((e["date"], int(n)) for n, e in solved.items()), reverse=True)[:8]
     base = repo_url() + "/blob/HEAD/"
@@ -246,9 +247,9 @@ def write_readme(state, problems):
         "{{TOTAL}}": str(total_solved),
         "{{CORE_DONE}}": str(n_core),
         "{{CORE_TOTAL}}": str(len(core)),
-        "{{EASY}}": f"{by_diff['Easy'][0]}/{by_diff['Easy'][1]}",
-        "{{MEDIUM}}": f"{by_diff['Medium'][0]}/{by_diff['Medium'][1]}",
-        "{{HARD}}": f"{by_diff['Hard'][0]}/{by_diff['Hard'][1]}",
+        "{{EASY}}": f"{by_diff['Easy'][0]}%2F{by_diff['Easy'][1]}",
+        "{{MEDIUM}}": f"{by_diff['Medium'][0]}%2F{by_diff['Medium'][1]}",
+        "{{HARD}}": f"{by_diff['Hard'][0]}%2F{by_diff['Hard'][1]}",
         "{{CORE_BAR}}": bar(n_core, len(core), 20),
         "{{TOPIC_ROWS}}": "\n".join(rows),
         "{{RECENT_ROWS}}": "\n".join(recent_rows) or "| - | - | nothing yet | - |",

@@ -6,9 +6,9 @@
 
 ![solved](https://img.shields.io/badge/solved-14-2ea44f?style=flat-square)
 ![roadmap](https://img.shields.io/badge/NeetCode_150-5%2F150-1f6feb?style=flat-square)
-![easy](https://img.shields.io/badge/easy-8/33-3fb950?style=flat-square)
-![medium](https://img.shields.io/badge/medium-6/105-d29922?style=flat-square)
-![hard](https://img.shields.io/badge/hard-0/21-f85149?style=flat-square)
+![easy](https://img.shields.io/badge/easy-8%2F33-3fb950?style=flat-square)
+![medium](https://img.shields.io/badge/medium-6%2F105-d29922?style=flat-square)
+![hard](https://img.shields.io/badge/hard-0%2F21-f85149?style=flat-square)
 ![language](https://img.shields.io/badge/java-b07219?style=flat-square)
 
 [Roadmap](#roadmap) · [How a problem gets solved](#how-a-problem-gets-solved-here) · [System design](system-design/) · [Build projects](projects/)
@@ -36,23 +36,23 @@ Progress bars update whenever a problem is marked done.
 | Topic | Progress | Solved |
 |---|---|---|
 | [Arrays & Hashing](Arrays/) | ▰▰▰▰▱▱▱▱▱▱▱▱ | 3 / 9 |
-| [Two Pointers](Two_Pointers/) | ▰▰▰▰▰▱▱▱▱▱▱▱ | 2 / 5 |
-| [Sliding Window](Sliding_Window/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
-| [Stack](Stack/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
-| [Binary Search](Binary_Search/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
-| [Linked List](Linked_List/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 11 |
-| [Trees](Trees/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 15 |
-| [Tries](Tries/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 3 |
-| [Heap / Priority Queue](Heap/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
-| [Backtracking](Backtracking/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 9 |
-| [Graphs](Graphs/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 13 |
-| [Advanced Graphs](Advanced_Graphs/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
-| [1-D DP](DP_1D/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 12 |
-| [2-D DP](DP_2D/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 11 |
-| [Greedy](Greedy/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 8 |
-| [Intervals](Intervals/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
-| [Math & Geometry](Math_Geometry/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 8 |
-| [Bit Manipulation](Bit_Manipulation/) | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
+| Two Pointers | ▰▰▰▰▰▱▱▱▱▱▱▱ | 2 / 5 |
+| Sliding Window | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
+| Stack | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
+| Binary Search | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
+| Linked List | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 11 |
+| Trees | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 15 |
+| Tries | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 3 |
+| Heap / Priority Queue | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
+| Backtracking | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 9 |
+| Graphs | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 13 |
+| Advanced Graphs | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
+| 1-D DP | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 12 |
+| 2-D DP | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 11 |
+| Greedy | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 8 |
+| Intervals | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 6 |
+| Math & Geometry | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 8 |
+| Bit Manipulation | ▱▱▱▱▱▱▱▱▱▱▱▱ | 0 / 7 |
 
 Every problem in the list, with its link, a plain-words statement, difficulty and planned date, is in
 [`tracker/notion_import.csv`](tracker/notion_import.csv). It drops straight into a Notion database.
