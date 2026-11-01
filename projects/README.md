@@ -81,7 +81,7 @@ You run it on your own sites first, which gives you real data and a real case st
 
 | | |
 |---|---|
-| Stack | Python or Node ingest jobs, Postgres, charting frontend, OAuth to the data sources |
+| Stack | Java (Spring Boot) ingest jobs, Postgres, charting frontend, OAuth to the data sources |
 | 2-week MVP | Import two reports, one table: page, views, revenue, RPM |
 | Skills it builds | OAuth, scheduled ingestion, idempotent pipelines, data modelling |
 | Revenue | Subscription. A small, paying niche beats a large free audience |
