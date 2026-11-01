@@ -63,12 +63,12 @@ Every problem in the list, with its link, a plain-words statement, difficulty an
 |---|---|---|---|
 | 2026-07-01 | 75 | [Sort Colors](Arrays/75.Sort_Color.java) | Medium |
 | 2026-06-29 | 1846 | [Maximum Element After Decreasing and Rearranging](Arrays/1846.Maximum_Elements_after_Decreasing_and_Rearranging.java) | Medium |
-| 2026-06-28 | 16 | [3Sum Closest](Arrays/16.3Sum_Closest.java) | Medium |
 | 2026-06-28 | 15 | [3Sum](Arrays/15.3Sum.java) | Medium |
+| 2026-06-28 | 16 | [3Sum Closest](Arrays/16.3Sum_Closest.java) | Medium |
 | 2026-06-27 | 27 | [Remove Element](Arrays/27.Remove_Element.java) | Easy |
-| 2026-06-26 | 977 | [Squares of a Sorted Array](Arrays/977.Squares_of_sorted_array.java) | Easy |
-| 2026-06-26 | 88 | [Merge Sorted Array](Arrays/88.Merge_Two_Sorted_Arrays.java) | Easy |
+| 2026-06-26 | 26 | [Remove Duplicates from Sorted Array](Arrays/26.Remove_Dupicates_From_Sorted_Array.java) | Easy |
 | 2026-06-26 | 80 | [Remove Duplicates from Sorted Array II](Arrays/80.Remove_Duplicates_From_Sorted_Array_2.java) | Medium |
+| 2026-06-26 | 88 | [Merge Sorted Array](Arrays/88.Merge_Two_Sorted_Arrays.java) | Easy |
 
 ## How a problem gets solved here
 
@@ -81,18 +81,18 @@ Every problem in the list, with its link, a plain-words statement, difficulty an
 
 ## Using the tracker
 
-Everything is plain Python 3 with no dependencies.
+The tracker is a single Java file. It needs only a JDK (11 or newer) and no build step.
 
 ```bash
-python tracker/track.py today              # what is planned today, and which reviews are due
-python tracker/track.py new 217            # creates Arrays/217.Contains_Duplicate.java with a header
-python tracker/track.py done 217 -m "hash set, early exit on repeat"
-python tracker/track.py review 217         # log a spaced-repetition review
-python tracker/track.py plan --start 2026-11-02 --per-day 2
+java tracker/Tracker.java today              # what is planned today, and which reviews are due
+java tracker/Tracker.java new 49             # creates Arrays/49.Group_Anagrams.java with a header
+java tracker/Tracker.java done 49 -m "sort the chars as a key, group in a hash map"
+java tracker/Tracker.java review 49          # log a spaced-repetition review
+java tracker/Tracker.java plan --start 2026-11-02 --per-day 2
 ```
 
 `done` marks the problem solved, schedules the three reviews, regenerates this README and the Notion
-CSV, then commits as `Solve #217 Contains Duplicate - ...` and pushes.
+CSV, then commits as `Solve #49 Group Anagrams - ...` and pushes. Add `--no-push` to commit only.
 
 ## Layout
 
